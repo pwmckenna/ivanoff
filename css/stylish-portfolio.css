@@ -20,7 +20,7 @@ body {
 .text-vertical-center {
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
+    padding-top: 10%;
 }
 
 .text-vertical-center h1 {
@@ -162,11 +162,18 @@ hr.small {
 @media only screen and (min-width: 400px) {
     /* styles for wide screens */
     .header {
-        background: url(../img/bg.jpg) no-repeat center left;
-        background-size: 60% 100%;
+        background: url(../img/bg.jpg) no-repeat top center;
         background-color: white;
+        background-attachment: fixed;
     }
 }
+
+@media only screen and (min-width: 1300px) {
+    .header {
+        background-size: 100%;
+    }
+}
+
 /* About */
 
 .about {
