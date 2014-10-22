@@ -38,7 +38,9 @@ body {
     }
 }
 
-
+a.fa-stack {
+    color: white !important;
+}
 
 .header .text-vertical-center {
     vertical-align: top !important;
