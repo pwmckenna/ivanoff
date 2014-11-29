@@ -26,25 +26,15 @@ body {
 @media only screen and (min-width: 400px) {
     /* styles for wide screens */
     .header {
-        background: url(../img/bg.jpg) no-repeat top center;
-        background-color: white;
-        background-attachment: fixed;
-    }
-}
-
-@media only screen and (min-width: 1300px) {
-    .header {
-        background-size: 100%;
+        color: #eee;
+        background: url(../img/nursedark.jpg) no-repeat;
+        background-size: auto 100%;
+        background-color: rgb(139, 139, 139);
     }
 }
 
 a.fa-stack {
     color: white !important;
-}
-
-.header .text-vertical-center {
-    vertical-align: top !important;
-    padding-top: 10%;
 }
 
 .text-vertical-center {
